@@ -544,3 +544,11 @@ button {
     }
 }
 
+   .kontakt
+    position: absolute;
+    top: 500px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;

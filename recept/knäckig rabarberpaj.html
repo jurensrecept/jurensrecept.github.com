@@ -15,14 +15,6 @@
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
     <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
     <link rel="stylesheet" type ="text/css" href="../css/style.css">
-
-    <!-- Koppla in och JQuery Bootstrap javascript -->
-    <script type="text/javascript" src="../js/jquery.min.js"></script>
-    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-    <!-- Koppla in Bootstrap css -->
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
-    <link rel="stylesheet" type ="text/css" href="../css/style.css">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -36,6 +28,9 @@
     <!-- Koppla in och JQuery Bootstrap javascript -->
     <script type="text/javascript" src="../js/jquery.min.js"></script>
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+     <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <!-- Angular -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
 
     <!-- Firebase -->
@@ -46,15 +41,17 @@
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
     <script type="text/javascript">
   // Initialize Firebase
-var receptnamn = "korvstroganoff"
+
+var receptnamn = "knäckig rabarberpaj";
 </script>
+
     <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
     <script type="text/javascript" src="../js/funktion.js"></script>
 
     <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
-    <title>Mina Recept</title>
-    <link href="https://fonts.googleapis.com/css?family=Courgette|Orbitron" rel="stylesheet">
+    <title>Knäckig rabarberpaj</title>
     <link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Orbitron" rel="stylesheet">
 </head>
 
 <!-- I body finns allt innehåll på hemsidan -->
@@ -70,38 +67,41 @@ var receptnamn = "korvstroganoff"
             </div>
         </nav>
 
- <div class="recept"> 
  <div Class="col-sm-2">
-    <h5>korvstroganoff</h5>
-        <img src="../bilder/korvstroganoff.jpg" width="100%">
+    <h5>knäckig rabarberpaj</h5>
+        <img src="../bilder/knakig rabarberpaj.jpg" width="100%">
     </div>
 
     
     <div class="col-sm-2">
         <h5>ingredienser</h5>
         <ul>
-        <li>500g Falukorv</li>
-        <li>2 gula lökar</li>
-        <li>2 1/2 dl cremé fraiche</li>
-        <li>2 msk tomatpure</li>
-        <li>1 msk dijonsenap</li>
-        <li>smör</li>
-        <li>salt och svartpeppar</li>
-    </ul>
-    <h5>till servering:
-        4 port ris</h5>
+        <li>sak</li>
+        <li>500 g rabarber</li>
+        <li>2 dl havregryn </li>
+        <li>2 dl socker</li>
+        <li>1 3/4 dl vetemjöl</li>
+        <li>1/2 tsk bakpulver </li>
+        <li>1 krm vaniljsocker</li>
+        <li>125 g smör</li>
+        <li>1/2 dl vispgrädde</li>
+        <li>1/2 dl ljus sirap</li>
+        <li>smör till formen</li>
         </ul>
     </div>
 
     <h5>så här gör du</h5>
     <div class="col-sm-8">
     <ol>
-       <li>Strimla korven. Skala, dela och strimla löken fint.</li>   
-        <li>Fräs korv och lök i smör några minuter, tills löken mjuknar.</li>
-        <li>Tillsätt crème fraiche, tomatpuré och senap. Späd ev med lite vatten. Låt sjuda 5-10 minuter. Smaka av med salt och peppar.</li>
-        <li>Servera gärna med kokt ris.</li> 
+        <li>Sätt ugnen på 150°C. </li>
+        <li>
+Blanda alla torra ingredienser i en bunke.</li>
+        <li>Smält smöret i en kastrull tillsammans med grädde och sirap. Blanda ner de torra ingredienserna.</li>
+        <li>Ansa och skär rabarbern i ca 4 cm stora bitar. Lägg dem i en smord ugnssäker form. Bred på smeten.</li>
+        <li>
+Grädda pajen mitt i ugnen 40–50 minuter, tills den fått fin färg.</li>
+        <li>Till servering: Servera gärna ljummen med vaniljglass.</li>
     </ol>
-    </div>
     </div>
 <div class="kommentarer" ng-controller="KommentarCtrl" >
 
